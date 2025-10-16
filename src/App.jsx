@@ -10,6 +10,10 @@ import Stylesheet from "./components/Stylesheet";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import LifeCycleC from "./components/LifecycleC";
+import Frag from "./components/Frag";
+import Pure from "./components/Pure";
+import ParentC from "./components/ParentC";
+import RefsDemo from "./components/RefsDemo";
 
 const App = () => {
   return (
@@ -24,7 +28,11 @@ const App = () => {
       <Stylesheet primary={true} /> */}
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
-      <LifeCycleC />
+      {/* <LifeCycleC /> */}
+      {/* <Frag /> */}
+      {/* <Pure /> */}
+      {/* <ParentC /> */}
+      <RefsDemo />
     </div>
   );
 };
